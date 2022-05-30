@@ -1,0 +1,6 @@
+#replace the word
+with open('gla.txt','rt') as f:
+    data=f.read()
+    newdata=data.replace('python','ankita')
+    f.seek(0)
+    print(newdata,file=f)
