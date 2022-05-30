@@ -1,0 +1,7 @@
+# 4. Function to input a word in lowercase and return in uppercase
+def stup(x): 
+    y = x.upper()
+    return y
+st = input("enter string")
+out = stup(st)
+print(out)
