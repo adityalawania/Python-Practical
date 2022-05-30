@@ -1,0 +1,4 @@
+# Find the longest word in given string
+with open('gla.txt') as f:
+    data=f.read().split()
+    print(max(data,key=len))
